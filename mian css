@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公用*/
+.comWidth{width:1000px;margin-left:auto;margin-right:auto;}
+.leftAtrea{float:left;}
+.rightAtrea{float:right;}
+
+
+/*topBar*/
+.topBar{height:31px;background-color:#F7F7F7;line-height:31px;}
+.collection{background:url(../images/icon/collection1.png) left center no-repeat;padding-left:19px;font-weight:bold;}
+.topBar a:hover{color:red;}
+
+/*logoBar*/
+.logoBar{height:85px;background-color:#1D7AD9;}
+.logo{padding-left:41px;padding-top:13px;}
+/*search*/
+.search_box{width:430px;padding-top:23px;padding-left:185px;}
+.search_text{width:350px;height:35px;line-height:35px\9;/*css hack \9代表所有的ie浏览器*/padding:0 5px;background-color:#FFF;/*因为前边设置背景为none*/}
+	/*对按钮的位置、字体大小、背景颜色进行设计*/
+.search_button{width:70px;height:35px;font-size:14px;
+font-family:"Microsoft YaHei","微软雅黑";background-color:#FF8C00;font-color:#FFF;}
